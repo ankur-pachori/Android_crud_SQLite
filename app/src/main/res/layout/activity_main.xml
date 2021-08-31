@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:showDividers="middle"
+    android:divider="@drawable/spaceing"
+    android:background="@drawable/page"
+    >
+    <Spinner
+        android:id="@+id/spinnerMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/createEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create DataBase"
+        android:background="@drawable/btn"
+        />
+    <Button
+        android:id="@+id/readEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Data"
+        android:background="@drawable/btn"/>
+    <Button
+        android:id="@+id/updateEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Update"/>
+    <Button
+        android:id="@+id/deleteEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="Delete"/>
+</LinearLayout>
